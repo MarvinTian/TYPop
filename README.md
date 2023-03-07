@@ -1,9 +1,10 @@
 # TYPop
 ##一、简介  
+  
 一款通用的弹窗组件，使用dart语言，适用于flutter应用  
-------------------------------
-##二、使用
-**初始化**
+
+##二、使用  
+初始化  
 （1）用到动画，所以需要mixin SingleTickerProviderStateMixin
 ```
   class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateMixin
@@ -19,7 +20,7 @@
         duration: const Duration(milliseconds: 200), vsync: this);
   }
 ```
-**使用示例**
+使用示例  
 1.显示弹窗，默认最多显示1个  
 ```
     TYPop pop = TYPop();
@@ -65,8 +66,9 @@
               }, child: Container(color: Colors.grey, width: 100, height: 100,))
             ],
           ));
+    }
 ```
-------------------------------
+
 
 
 
