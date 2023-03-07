@@ -3,7 +3,7 @@
 ## 一、简介  
   
 一款通用的弹窗组件，使用dart语言，适用于flutter应用。
-***
+  
 ##二、使用  
 **初始化**  
 1.用到动画，所以需要mixin SingleTickerProviderStateMixin
